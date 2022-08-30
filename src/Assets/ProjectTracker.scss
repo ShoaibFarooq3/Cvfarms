@@ -1,0 +1,26 @@
+@import "node_modules/progress-tracker/src/styles/progress-tracker.scss";
+
+.Theme_Everberries .progress-step .progress-marker {
+    color: #fff;
+  }
+//   .Theme_Everberries .progress-step .progress-marker::before {
+//     background-color: #666;
+//   }
+//   .Theme_Everberries .progress-step .progress-marker::after {
+//     background-color: #666;
+//   }
+//   .Theme_Everberries .progress-step .progress-text {
+//     color: #EBD954;
+//   }
+  .Theme_Everberries .progress-step.is-active .progress-marker::before {
+    background-color: #F8BC26;
+  }
+  .Theme_Everberries .progress-step.is-complete .progress-marker::before {
+    background-color: #F8BC26;
+  }
+  .Theme_Everberries .progress-step.is-complete .progress-marker::after {
+    background-color: #EBD954;
+  }
+  .Theme_Everberries .progress-step:hover .progress-marker::before {
+    background-color: #EBD954;
+  }

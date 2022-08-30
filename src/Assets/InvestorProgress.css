@@ -1,0 +1,37 @@
+.Investor_Button{
+
+font-weight: 500;
+background-color: #61CE70;
+color: #fff;
+padding:5px 24px;
+font-size: 15px;
+border: 0;
+}
+.InvestorText>span{
+ display: block;
+ margin:16px 0 30px 0;
+    line-height: 1.7rem;
+font-size: 17px;
+}
+ .Waiting_Btn{
+    background-color: #F8BC26 !important;
+    opacity: 0.7 !important;
+    
+}
+.NotSigned_Btn{
+    background-color: red !important;
+    opacity: 0.5 !important;
+}
+.Signed{
+    background-color: #0078D4 !important; 
+    opacity: 0.5 !important;
+}
+
+
+/* Loader animation */
+
+.LoaderAnimation .lds-grid{
+
+    margin:0 !important;
+    margin-bottom: 5rem !important;
+}

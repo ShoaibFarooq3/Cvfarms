@@ -1,0 +1,84 @@
+.projectOverViewRow{
+    min-height: 60rem;
+}
+.imageSec{
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.detailsSec{
+    text-align: left;
+    padding: 0rem !important;
+    height: inherit;
+    border-top:1px solid rgba(128, 128, 128, 0.205);
+    border-bottom:1px solid rgba(128, 128, 128, 0.205);
+    
+}
+
+.detailsSec>div{
+    border:1px solid rgba(128, 128, 128, 0.205);
+ color:black;
+ padding:7rem 2rem 7rem 4rem;
+    display:inline-block;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, var(--thm-primary) 50%, rgb(255, 255, 255) 0);
+    background-color: white;
+    background-position: right;
+    transition: background-position 0.4s;
+}
+.detailsSec>div:hover {
+    background-position: left;
+
+}
+.detailsSec>div:hover>* {
+
+color:white;
+}
+.detailsSec>div>*{
+    max-width: 70%;
+
+}
+.detailsSec>h2{
+    font-weight: 500  !important;
+    color: #000;
+    font-size: 28px !important;
+    line-height: 1.25em !important;
+    letter-spacing: 0;
+}
+
+.OverView>h2{
+    margin: 30px 0 0;
+    font-weight: 500 !important;
+    color: #000 ;
+    font-size: 28px !important;
+    line-height: 1.25em !important;
+    letter-spacing: 0 !important;
+}
+.OverView>p{
+    color: #7A7A7A;
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.ProjectIcons{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.616);
+}
+.ProjectBtn{
+    border-bottom: 2px solid var(--thm-primary);
+    font-size: 14px;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.OverView .ProjectBtn{
+    float: none !important;
+}
+.ProjectBtn:hover{
+    border-bottom: 2px solid var(--thm-white) !important;
+}
+.detailsSec>div:hover{
+    color: #fff !important;
+}

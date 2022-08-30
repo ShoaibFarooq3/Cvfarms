@@ -1,0 +1,47 @@
+.Resource_Tab{
+   color: #6EC1E4;
+   font-weight: 700;
+   font-size: 17px;
+   padding: 20px 25px;
+   border: none;
+   display: block;
+   background-color: transparent;
+   width: 100%;
+   text-align: left;
+  
+}
+.Resource_Tab2{
+    color: #6EC1E4;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 20px 25px;
+    border: none;
+    display: inline;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #d4d4d4;
+ }
+.Resource_Tab_Active{
+    color: #000 !important;
+    border: 3px solid #d4d4d4 !important;
+    /* border-right: none !important; */
+}
+.Resource_TabPanel{
+    padding: 20px;
+    border: 3px solid #d4d4d4;
+   
+}
+.Resource_TabPanel2{
+    padding: 20px;
+    border: 3px solid #d4d4d4;
+    border-top: 0;
+}
+.Resource_Tab_Active2{
+    color: #000 !important;
+    border: 3px solid #d4d4d4 !important;
+    border-bottom: 3px solid #fff !important;
+}
+.grid-doc{
+    max-width: 100% !important;
+}

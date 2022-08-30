@@ -1,0 +1,72 @@
+
+.Comment_Heading h4{
+    /* font-family: Roboto,sans-serif; */
+    font-weight: 500;
+    color: #000;
+    font-size: 42px;
+    line-height: 1.19em;
+    letter-spacing: -.02em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.Comment_Body>h5{
+    /* font-family: Roboto,sans-serif; */
+    font-weight: 500;
+    color: #000;
+    font-size: 22px;
+    line-height: 1.273em;
+    letter-spacing: 0;
+    /* margin: 25px 0; */
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.Comment_Body p{
+    /* font-family: Roboto,sans-serif; */
+    font-weight: 400 !important;
+    color: #707070;
+    font-size: 17px;
+    line-height: 28px;
+}
+.Comment_Date{
+    font-size: 11px;
+    letter-spacing: 0.23rem;
+}
+.Comment_Section{
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.142);
+   
+}
+.All_Comments::-webkit-scrollbar {
+    width: 1em;
+  }
+  .All_Comments{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 400px;
+  }
+  .Reply_Comments{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+    
+  }
+  .Comment_Image>img{
+    height: 70px;
+    width: 70px;
+  }
+  /* body::-webkit-scrollbar {
+    width: 1em;
+  } */
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .CommentReply .ProjectBtn{
+    margin-top: 0 !important;
+  }

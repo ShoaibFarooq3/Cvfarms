@@ -1,0 +1,124 @@
+.Blog_card{
+    border: 0!important;
+    box-shadow: none !important;
+}
+.blog_date{
+    /* font-family: Roboto,sans-serif; */
+    font-size: 11px;
+    line-height: 2.545em;
+    font-weight: 400;
+    letter-spacing: .36em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 6px 7px 2px 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f8bc26;
+    z-index: 5;
+}
+.blog_dateT{
+  
+        /* font-family: Roboto,sans-serif; */
+        font-size: 11px;
+        line-height: 2.545em;
+        font-weight: 400;
+        letter-spacing: .36em;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 6px 7px 2px 12px;
+        position: absolute;
+        top: 0;
+        left: 12px;
+        background-color: #f8bc26;
+        z-index: 5;
+    
+}
+.Blog_Title{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    color: black;
+    text-align: left;
+    margin: 25px 0 ;
+    min-height: 50px;
+    max-height: 50px;
+}
+.Blog_Title>a>h3{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    color: black;
+    text-align: left;
+    margin: 25px 0 ;
+    min-height: 50px;
+    max-height: 50px;
+}
+.Blog_Desc{
+color: #707070;
+font-size: 17px;
+font-weight: 400;
+margin: 13px 0;
+text-align: left;
+height: 120px;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 29px;
+
+}
+.Blog_Category_Desc{
+    color: #707070;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 29px;
+    }
+.Blog_Btn{
+    float: left;
+}
+.Blog_Image>img{
+    min-height: 220px !important;
+    max-height: 220px !important;
+     
+}
+.mySwiper2 .swiper-slide {
+    padding-top: 0 !important;
+    margin-top:-4.5rem !important;
+    min-height: 85vh !important;
+}
+.mySwiper3 .swiper-slide {
+    padding-top: 0 !important;
+    margin-top:-4.5rem !important;
+    min-height: 50vh !important;
+    padding: 0!important;
+}
+
+.Blog_Image{
+    transition: transform .2s; /* Animation */   
+
+}
+.Blog_Image:hover{
+    transform: scale(1.02);
+}
+.blogRow{
+    margin-right:-38rem;
+}
+.Blog_Category_Title>a>h3{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    color: black;
+    text-align: left;
+    margin: 10px 0;
+}
+.ReadMoreBtn{
+    border-bottom: 2px solid var(--thm-primary);
+    font-size: 14px;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: 500;
+}

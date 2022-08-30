@@ -1,0 +1,37 @@
+
+html {
+  background: #0E3741;
+}
+
+.circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 45%;
+  top: 20%;
+  margin: -50px 0 0 -50px;
+  background: var(--thm-primary);
+  border-radius: 80%;
+  backface-visibility: visible;
+  visibility:visible;
+  z-index:1;
+}
+#wrapper{
+  position: absolute;
+  width: 100vw;
+  color:black;
+  background: inherit;
+  z-index:3;
+top: 40%;
+}
+#wrapper>h1{
+    z-index: 4;
+}
+#box{
+  position: relative;
+  width: 100vw;
+  min-height: 60vh;
+  overflow: hidden;
+/* background-color: red; */
+  z-index:2;
+}

@@ -1,0 +1,12 @@
+.main-nav__main-navigation .MenuBarItems> li{
+    display: block;
+    color: var(--thm-black);
+    font-size: 14px;
+    word-break: break-all;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}

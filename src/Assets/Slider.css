@@ -1,0 +1,212 @@
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* background: !important; */
+  background-size: cover ! important;
+    background-repeat: no-repeat ! important;
+    /* background-position: 0 0 !important; */
+    background-position:center !important;
+    max-height: 100vh ! important;
+    min-height: 100vh ! important;
+    padding-top: 0;
+    padding-left: 8vw ;
+}
+.mySwiper2 .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+ 
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: left;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+   /* background: !important; */
+   background-size: cover ! important;
+     background-repeat: no-repeat ! important;
+     /* background-position: 0 0 !important; */
+     background-position:center !important;
+     max-height: 100vh ! important;
+     min-height: 100vh ! important;
+     padding-top: 0;
+     padding-left: 0;
+     padding-right: 4vw ;
+ }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainddiv{
+min-height: 400px;
+color: #fff;
+z-index: 999;
+width: 70%;
+
+}
+.Banner_Title>h1{
+   width: 80%;
+   font-size: 105px;
+   font-weight: 500;
+   line-height: 109px !important;
+   -webkit-animation: slide 0.5s forwards;
+   -webkit-animation-delay: 2s;
+   animation: slide 0.5s forwards;
+   animation-delay: 2s;
+   margin: 0 0 50px;
+text-transform: none !important;
+}
+.Banner_Description{
+   width: 90%;
+   font-size: 19px;
+   line-height: 34px;
+}
+@-webkit-keyframes slide {
+   100% { left: 0; }
+}
+
+@keyframes slide {
+   100% { left: 0; }
+}
+.Banner_Title>p{
+font-size: 19px;
+font-weight: 400 !important;
+}
+.swiper-pagination-bullet-active{
+   background: var(--thm-primary) !important;
+}
+span.swiper-pagination-current{
+   font-size: 16px;
+   color: var(--thm-primary);
+}
+span.swiper-pagination-total{
+   color: #fff;
+   font-size: 16px;
+}
+.swiper-button-next,.swiper-button-prev{
+   color: rgba(255, 255, 255, 0.479) !important;
+   background-image: none !important;
+   font-weight: 400;
+   
+}
+.swiper-button-prev{
+   margin-left: 2.5rem;
+}
+.swiper-button-next{
+   margin-right: 2.5rem;
+}
+.NewsLetter_Box{
+   padding : 3rem 6rem;
+   text-align: left;
+   background-color: black;
+   color: #fff;
+position: absolute;
+right: 0;
+bottom: 0;   
+}
+.NewsLetter_Box>h4{
+font-size: 22px;
+}
+.NewsLetter_Box>p{
+   font: 17px;
+   line-height: 29px;
+   font-weight: 400;
+}
+.emailInput{
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   vertical-align: top;
+   margin: 0 0 20px;
+   padding: 24px 20px;
+   font-family: inherit;
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: inherit;
+   color: #707070;
+   background-color: transparent;
+   border: 1px solid #e1e1e1;
+   border-radius: 0;
+   box-sizing: border-box;
+   outline: 0;
+   cursor: pointer;
+   -webkit-appearance: none;
+   transition: color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out;
+   
+   margin: 0;
+   padding: 10px 0;
+   border: none;
+   border-bottom: 2px solid white;
+   color: #fff;
+
+}
+.Menu_Icon{
+   font-size: 26px;
+   margin-top: 0.5rem;
+}
+.customIcon{
+   position: relative;
+   margin-top: 2rem;}
+   
+
+   @media screen and (max-width:768px){
+      .NewsLetter_Box{
+         display: none !important;
+      }
+      .Banner_Title>h1{
+         margin-top: 2rem;
+         width: 100% !important;
+         text-align: center !important;
+         font-size: 55px !important;
+         line-height: 67px !important;
+         margin-left: 2.5rem;
+      }
+      .Banner_Description{
+         display: none !important;
+      }
+      #Banner_Button{
+         float: right !important;
+         margin-right: 0.75rem;
+      }
+      .swiper-button-prev{
+         margin-left: 0.6rem;
+      }
+      .swiper-button-next{
+         margin-right: 0.6rem;
+      }
+   }

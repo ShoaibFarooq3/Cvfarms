@@ -1,0 +1,257 @@
+.top{
+z-index: 99;
+}
+
+.page-wrapper{
+    z-index: 0;
+}
+.vertical-align-wrap {
+    /* position: absolute; */
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+.vertical-align-middle {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+.Card {
+    background: #0c0d0e95;
+    transition: .5s;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    border-radius: 0;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+padding: 40px !important;
+}
+.Auth_box{
+    width: 40vw;
+    /* height: auto; */
+    /* margin-left: 130px; */
+    margin-top: 25vh;
+
+    
+}
+.Auth_box .form-group{
+    margin-bottom: 0!important;
+}
+#signin-email, #signin-password{
+    background-color: transparent;
+    border-radius: 0!important;
+    border: 1px solid #fff;
+    margin-bottom: 0.5rem;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 13px;
+    padding: 23px;
+    color: #fff !important;
+}
+#signin-email::placeholder, #signin-password::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 0.8; /* Firefox */
+  }
+#myVideo{
+   
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+     
+}
+/* .auth-main::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    z-index: 0;
+    background: #F2B625;
+    box-sizing: border-box;
+} */
+.auth-main{
+    z-index: 5;
+}
+/* .auth-main::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(https://cdn.pixabay.com/photo/2017/09/12/13/21/photovoltaic-system-2742302_960_720.jpg) no-repeat 0 0 fixed;
+    background-size: cover;
+    box-sizing: border-box;
+} */
+.auth-main .Card {
+    padding: 10px;
+}
+.Card .Blog_Title {
+    font-family: 'Raleway', sans-serif !important;
+    color: #fff;
+    /* padding: 20px; */
+    position: relative;
+    box-shadow: none;
+}
+.Card .body {
+    color: #444;
+    padding: 20px;
+    font-weight: 400;
+}
+ .auth-main .btn-primary {
+    background: transparent;
+    border-color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 500;
+}
+.fancy-checkbox>span{
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+}
+.helper-text>a{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 300;
+}
+@media screen and (max-width: 640px){
+.auth-main:before {
+    width: 100%;
+}
+}
+@media screen and (max-width: 992px){
+.Auth_box {
+    width: 80%;
+   
+}}
+@media screen and (max-width: 640px){
+.Auth_box {
+    width: 90%;
+}}
+
+/* Animations */
+.Auth_box{
+    animation-duration: 0.5s !important;
+    
+  }
+ /* Login Header */
+  .LoginHeader>h3{
+    font-family: 'Raleway', sans-serif !important;
+    color: #000000;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500 !important;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  .LoginHeader{
+    top: 0;
+    position: fixed;
+    padding: 20px 0 20px 40px;
+  }
+
+  
+  .disabledInput{
+    opacity: .5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  .registerInputs{
+    background-color: transparent;
+    border-radius: 0!important;
+    border: 1px solid #fff;
+    margin-bottom: 0.5rem;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 13px;
+    padding: 22px;
+    color: #fff !important;
+  }
+
+ .registerInputs::placeholder, .registerInputs::placeholder { 
+    color: #fff;
+    opacity: 0.8; /* Firefox */
+  }
+  .registerInputs:focus{
+    background-color: transparent !important;
+  }
+
+  /* Spinner Css */
+  .lds-grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 45vh;
+  }
+  .lds-grid div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #F9BB23;
+    animation: lds-grid 1.2s linear infinite;
+  }
+  .lds-grid div:nth-child(1) {
+    top: 8px;
+    left: 8px;
+    animation-delay: 0s;
+  }
+  .lds-grid div:nth-child(2) {
+    top: 8px;
+    left: 32px;
+    animation-delay: -0.4s;
+  }
+  .lds-grid div:nth-child(3) {
+    top: 8px;
+    left: 56px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(4) {
+    top: 32px;
+    left: 8px;
+    animation-delay: -0.4s;
+  }
+  .lds-grid div:nth-child(5) {
+    top: 32px;
+    left: 32px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(6) {
+    top: 32px;
+    left: 56px;
+    animation-delay: -1.2s;
+  }
+  .lds-grid div:nth-child(7) {
+    top: 56px;
+    left: 8px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(8) {
+    top: 56px;
+    left: 32px;
+    animation-delay: -1.2s;
+  }
+  .lds-grid div:nth-child(9) {
+    top: 56px;
+    left: 56px;
+    animation-delay: -1.6s;
+  }
+  @keyframes lds-grid {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  

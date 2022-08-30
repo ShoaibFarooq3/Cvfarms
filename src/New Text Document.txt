@@ -1,0 +1,21 @@
+  useEffect(() => {
+  localStorage.clear()
+    var promise_About = GetAboutData();
+    promise_About
+      .then((data) => {
+        if (data !== null) {
+          localStorage.setItem("Aboutdata",JSON.stringify(data))
+
+        }
+      })
+      .catch(() => {});
+
+    var promise_Home = GetHomeData();
+    promise_Home
+      .then((data) => {
+        if (data !== null) {
+          localStorage.setItem("HomeData",JSON.stringify(data))
+        }
+      })
+      .catch(() => {});
+  });

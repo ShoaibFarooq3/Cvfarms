@@ -1,0 +1,31 @@
+.Post_Title{
+    text-align: left;
+}
+.Post_Title>h4{
+    font-weight: 500;
+    color: #000;
+    font-size: 28px;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.Post_Title>p{
+    font-size: 11px;
+    line-height: 2.545em;
+    font-weight: 400;
+    letter-spacing: .36em;
+    text-transform: uppercase;
+}
+.HeaderBody{
+    /* margin-top: 100px; */
+    background-color: #f7f8f9;
+    padding: 40px 0;
+    margin-bottom: 70px;
+}
+@media (max-width:500px){
+    .HeaderBody{
+        margin-bottom:0 !important;
+    }
+}

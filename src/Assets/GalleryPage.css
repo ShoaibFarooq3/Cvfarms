@@ -1,0 +1,29 @@
+.Active-Filter {
+  color: #fff;
+  background-color: var(--thm-primary) !important;
+}
+.Filter-Btn {
+  border: 0 ;
+background-color: #fff;
+padding: 2px 20px;
+  border-radius: 0 !important;
+  margin-right: 0.2rem;
+}
+.Filter-Btn:hover {
+    color: #fff;
+  background-color: var(--thm-primary);
+  }
+.Active-Filter:hover{
+    color: #fff !important;
+}
+.Filter-Btn:focus{
+border: 0 !important;
+}
+.react-photo-gallery--gallery>div>img{
+  transition: transform .2s; /* Animation */
+}
+
+.react-photo-gallery--gallery>div>img:hover{
+  transform: scale(1.1)!important;
+ 
+   }

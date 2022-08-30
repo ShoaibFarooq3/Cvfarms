@@ -1,0 +1,63 @@
+{
+  "name": "cvs",
+  "version": "0.1.0",
+  "homepage": "http://cv.leadsfizz.com/",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "contentful": "^9.1.32",
+    "contentful-management": "^10.8.0",
+    "crypto-js": "^4.1.1",
+    "dateformat": "^5.0.3",
+    "gsap": "^3.10.4",
+    "jquery": "^3.6.0",
+    "progress-tracker": "^2.0.7",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-carousel-minimal": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-hot-toast": "^2.3.0",
+    "react-images": "^1.2.0-beta.7",
+    "react-modal-video": "^1.2.9",
+    "react-photo-gallery": "^8.0.0",
+    "react-player": "^2.10.1",
+    "react-responsive-modal": "^6.2.0",
+    "react-rev-slider": "^1.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "sass": "^1.53.0",
+    "storage-changed": "^3.0.0",
+    "swiper": "^8.2.6",
+    "video-react": "^0.15.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
